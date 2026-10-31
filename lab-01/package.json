@@ -1,0 +1,23 @@
+{
+  "name": "lab-01-node-express-server",
+  "version": "1.0.0",
+  "description": "Lab 1: Node.js and Express server implementation for Backend Development Fundamentals",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:http": "node http-server.js",
+    "test": "node test-routes.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "bdf",
+    "lab-01",
+    "http-server"
+  ],
+  "author": "Padiga Sathwik",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
