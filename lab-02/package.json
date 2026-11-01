@@ -1,0 +1,35 @@
+{
+  "name": "lab-02-sqlite-crud",
+  "version": "1.0.0",
+  "description": "Lab 2: SQLite database and CRUD routes for Backend Development Fundamentals",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "init-db": "node init-db.js",
+    "test": "node test-routes.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "express",
+    "sqlite",
+    "sqlite3",
+    "crud",
+    "backend",
+    "bdf",
+    "lab-02"
+  ],
+  "author": "Padiga Sathwik",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

@@ -1,0 +1,39 @@
+### 1. Root route
+GET http://localhost:3000/
+
+### 2. About route (Student Info)
+GET http://localhost:3000/about
+
+### 3. GET all books (Read All)
+GET http://localhost:3000/books/
+
+### 4. GET single book by ID (Read One)
+GET http://localhost:3000/books/1/
+
+### 5. POST add a new book (Create)
+POST http://localhost:3000/books/
+Content-Type: application/json
+
+{
+  "title": "Eloquent JavaScript",
+  "author": "Marijn Haverbeke",
+  "price": 550,
+  "pages": 472
+}
+
+### 6. PUT update existing book (Update)
+PUT http://localhost:3000/books/1/
+Content-Type: application/json
+
+{
+  "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+  "author": "Robert C. Martin",
+  "price": 699,
+  "pages": 464
+}
+
+### 7. DELETE book by ID (Delete)
+DELETE http://localhost:3000/books/11/
+
+### 8. GET non-existent book (404 Error Handling)
+GET http://localhost:3000/books/999/
