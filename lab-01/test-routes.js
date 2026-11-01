@@ -11,6 +11,7 @@ const HOST = 'localhost';
 const routesToTest = [
   { path: '/', expectedStatus: 200, description: 'Welcome Text Route' },
   { path: '/about', expectedStatus: 200, description: 'About JSON Route' },
+  { path: '/date', expectedStatus: 200, description: 'Today Date Route' },
   { path: '/time', expectedStatus: 200, description: 'Current Time Route' },
   { path: '/unknown-route-test', expectedStatus: 404, description: 'Unknown Path (404 Test)' }
 ];

@@ -1,8 +1,8 @@
 # Backend Development Fundamentals (BDF) - Lab Submissions
 
 **Student Name:** Padiga Sathwik  
-**Registration Number:** [252U1R1172]  
-**Section:** [CSE-2D]  
+**Registration Number:** 252U1R1172  
+**Section:** CSE-2D  
 **Course:** Backend Development Fundamentals (Year II Term II)  
 **Faculty:** Sai Shiva Teja  
 **Institution:** Aurora  

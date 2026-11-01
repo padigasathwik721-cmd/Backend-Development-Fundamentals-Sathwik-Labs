@@ -39,15 +39,24 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
   res.status(200).json({
     name: 'Padiga Sathwik',
-    registrationNumber: '[Your Registration Number]',
-    section: '[Your Section]',
+    registrationNumber: '252U1R1172',
+    section: 'CSE-2D',
     course: 'Backend Development Fundamentals',
     lab: 'Lab 1: Node.js and Express server'
   });
 });
 
 /**
- * Task 5 - Route 3: GET /time
+ * Task 5 - Route 3: GET /date
+ * Returns today's date formatted string
+ */
+app.get('/date', (req, res) => {
+  const date = new Date();
+  res.status(200).send(`Today's date is ${date}`);
+});
+
+/**
+ * Task 5 - Route 4: GET /time
  * Returns current date and time using new Date()
  */
 app.get('/time', (req, res) => {
@@ -80,6 +89,7 @@ app.listen(PORT, () => {
   console.log(`Endpoints:`);
   console.log(` - GET  /       -> Welcome message (200 OK)`);
   console.log(` - GET  /about  -> Name & Section JSON (200 OK)`);
+  console.log(` - GET  /date   -> Today's Date String (200 OK)`);
   console.log(` - GET  /time   -> Current Date/Time JSON (200 OK)`);
   console.log(` - ANY  /*      -> 404 Not Found`);
   console.log(`=================================================`);

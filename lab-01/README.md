@@ -1,8 +1,8 @@
 # Lab 1: Node.js and Express server
 
-**Padiga Sathwik • [] • [CSE-2D]**  
+**Padiga Sathwik • 252U1R1172 • CSE-2D**  
 *Backend Development Fundamentals — Year II Term II — Aurora*  
-*Faculty: Sai Shiva Teja
+*Faculty: Sai Shiva Teja*
 
 ---
 
@@ -78,6 +78,7 @@ When initializing a project with `npm init -y`, `package.json` is generated. Her
 | :--- | :--- | :--- | :--- | :--- |
 | `GET` | `/` | Welcome banner / message | Text (`text/html` / `text/plain`) | `200 OK` |
 | `GET` | `/about` | Student identity details (name, registration number, section) | JSON (`application/json`) | `200 OK` |
+| `GET` | `/date` | Today's formatted date string (`Today's date is ...`) | Text (`text/plain`) | `200 OK` |
 | `GET` | `/time` | Current server date and time using `new Date()` | JSON (`application/json`) | `200 OK` |
 | `ANY` | `/*` (unknown) | Catch-all handler for undefined paths | JSON (`application/json`) | `404 Not Found` |
 
@@ -92,23 +93,28 @@ Welcome to the Node.js and Express.js Server! (Lab 1)
 ```json
 {
   "name": "Padiga Sathwik",
-  "registrationNumber": "[252U1R1172]",
-  "section": "[CSE-2D]",
+  "registrationNumber": "252U1R1172",
+  "section": "CSE-2D",
   "course": "Backend Development Fundamentals",
   "lab": "Lab 1: Node.js and Express server"
 }
 ```
 
-#### 3. `GET /time`
+#### 3. `GET /date`
+```text
+Today's date is Sun Nov 01 2026 17:21:00 GMT+0530 (India Standard Time)
+```
+
+#### 4. `GET /time`
 ```json
 {
-  "currentTime": "2026-10-31T10:45:00.000Z",
-  "localeString": "31/10/2026, 4:15:00 pm",
-  "timestamp": 1793443500000
+  "currentTime": "2026-11-01T11:51:00.000Z",
+  "localeString": "1/11/2026, 5:21:00 pm",
+  "timestamp": 1793534460000
 }
 ```
 
-#### 4. Unknown Route (e.g. `GET /invalid-page`)
+#### 5. Unknown Route (e.g. `GET /invalid-page`)
 ```json
 {
   "error": "Not Found",
@@ -121,21 +127,27 @@ Welcome to the Node.js and Express.js Server! (Lab 1)
 
 ## 📸 Screenshots
 
-*Place your screenshots inside `lab-01/screenshots/` and update references if needed:*
+All working endpoints and terminal outputs are captured and verified:
 
-### 1. Home Route (`GET /`) - Status: 200 OK
+### 1. Plain HTTP Server (`http.createServer`) - Status: 200 OK
+![Plain HTTP Server](screenshots/plain_http_route.png)
+
+### 2. Express Server: Home Route (`GET /`) - Status: 200 OK
 ![GET /](screenshots/home_route.png)
 
-### 2. About Route (`GET /about`) - Status: 200 OK
+### 3. Express Server: About Route (`GET /about`) - Status: 200 OK
 ![GET /about](screenshots/about_route.png)
 
-### 3. Time Route (`GET /time`) - Status: 200 OK
+### 4. Express Server: Date Route (`GET /date`) - Status: 200 OK
+![GET /date](screenshots/date_route.png)
+
+### 5. Express Server: Time Route (`GET /time`) - Status: 200 OK
 ![GET /time](screenshots/time_route.png)
 
-### 4. 404 Route (`GET /unknown`) - Status: 404 Not Found
+### 6. Express Server: 404 Not Found Route (`GET /invalid-page`) - Status: 404 Not Found
 ![GET /unknown 404](screenshots/not_found_route.png)
 
-### 5. Terminal Execution & Status Logging
+### 7. Terminal Execution & Status Logging
 ![Terminal Logs](screenshots/terminal_output.png)
 
 ---
