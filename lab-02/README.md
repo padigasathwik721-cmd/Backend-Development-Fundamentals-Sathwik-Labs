@@ -4,8 +4,7 @@
 *Backend Development Fundamentals — Year II Term II — Aurora*  
 *Faculty: Sai Shiva Teja / Joel Prashanth D*  
 **Repository Link:** [https://github.com/padigasathwik721-cmd/Backend-Development-Fundamentals-Sathwik-Labs](https://github.com/padigasathwik721-cmd/Backend-Development-Fundamentals-Sathwik-Labs)  
-**Live Link:** Not applicable (Local development server / Cloud IDE)  
-*(If deploying to Vercel/Render, paste your deployed live URL here: `https://your-service.vercel.app`)*
+**Live Link:** [https://lab-02-gxn6lewh6-sa-d30c.vercel.app](https://lab-02-gxn6lewh6-sa-d30c.vercel.app)
 
 ---
 
@@ -197,3 +196,4 @@ npm run init-db
 - [x] Every route returns the right status code (`200 OK`, `201 Created`, `400 Bad Request`, `404 Not Found`).
 - [x] Fully parameterized SQL queries (`?` placeholders) prevent SQL injection.
 - [x] Code cleanly documented and authored.
+

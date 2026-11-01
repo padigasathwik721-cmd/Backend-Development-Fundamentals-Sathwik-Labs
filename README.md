@@ -17,7 +17,7 @@ This repository contains all laboratory exercises for Backend Development Fundam
 | Lab Folder | Title | Status |
 | :--- | :--- | :--- |
 | [`lab-01/`](./lab-01/) | Lab 1: Node.js and Express Server | Completed |
-| [`lab-02/`](./lab-02/) | Lab 2: SQLite database and CRUD routes | Completed |
+| [`lab-02/`](./lab-02/) | Lab 2: SQLite database and CRUD routes | Completed ([Live API](https://lab-02-gxn6lewh6-sa-d30c.vercel.app)) |
 | `lab-03/` | Lab 3 | Upcoming |
 | `lab-04/` | Lab 4 | Upcoming |
 | `lab-05/` | Lab 5 | Upcoming |
