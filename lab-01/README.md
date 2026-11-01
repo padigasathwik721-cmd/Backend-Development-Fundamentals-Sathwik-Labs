@@ -1,8 +1,8 @@
 # Lab 1: Node.js and Express server
 
-**Padiga Sathwik • [Registration Number] • [Section]**  
+**Padiga Sathwik • [] • [CSE-2D]**  
 *Backend Development Fundamentals — Year II Term II — Aurora*  
-*Faculty: Joel Prashanth D*
+*Faculty: Sai Shiva Teja
 
 ---
 
@@ -92,8 +92,8 @@ Welcome to the Node.js and Express.js Server! (Lab 1)
 ```json
 {
   "name": "Padiga Sathwik",
-  "registrationNumber": "[Your Registration Number]",
-  "section": "[Your Section]",
+  "registrationNumber": "[252U1R1172]",
+  "section": "[CSE-2D]",
   "course": "Backend Development Fundamentals",
   "lab": "Lab 1: Node.js and Express server"
 }
@@ -176,3 +176,4 @@ Welcome to the Node.js and Express.js Server! (Lab 1)
 - [x] Every route explicitly returns the correct HTTP status code (`200` or `404`).
 - [x] Fully parameterized and modular design.
 - [x] Code cleanly documented and authored.
+

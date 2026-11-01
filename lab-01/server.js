@@ -1,7 +1,7 @@
 /**
  * Lab 1 - Task 4, 5, 6: Express.js Web Server
  * Backend Development Fundamentals - Year II Term II
- * Faculty: Joel Prashanth D
+ * Faculty: Sai Shiva Teja
  * 
  * Student: Padiga Sathwik
  */
@@ -86,3 +86,4 @@ app.listen(PORT, () => {
 });
 
 module.exports = app;
+

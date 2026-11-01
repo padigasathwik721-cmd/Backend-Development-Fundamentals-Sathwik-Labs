@@ -1,10 +1,10 @@
 # Backend Development Fundamentals (BDF) - Lab Submissions
 
 **Student Name:** Padiga Sathwik  
-**Registration Number:** [Enter Registration Number]  
-**Section:** [Enter Section]  
+**Registration Number:** [252U1R1172]  
+**Section:** [CSE-2D]  
 **Course:** Backend Development Fundamentals (Year II Term II)  
-**Faculty:** Joel Prashanth D  
+**Faculty:** Sai Shiva Teja  
 **Institution:** Aurora  
 
 ---
@@ -34,3 +34,4 @@ This repository contains all laboratory exercises for Backend Development Fundam
 3. Passwords and credentials are never stored or logged in plain text.
 4. Every route returns the appropriate HTTP status code.
 5. Parameterized queries will be used for SQL database operations.
+
