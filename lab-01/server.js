@@ -1,7 +1,7 @@
 /**
  * Lab 1 - Task 4, 5, 6: Express.js Web Server
  * Backend Development Fundamentals - Year II Term II
- * Faculty: Sai Shiva Teja
+ * Faculty: Sai Shiva Theja
  * 
  * Student: Padiga Sathwik
  */

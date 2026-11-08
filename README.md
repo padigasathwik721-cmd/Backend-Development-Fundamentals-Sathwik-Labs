@@ -4,7 +4,7 @@
 **Registration Number:** 252U1R1172  
 **Section:** CSE-2D  
 **Course:** Backend Development Fundamentals (Year II Term II)  
-**Faculty:** Sai Shiva Teja  
+**Faculty:** Mr Sai siva teja  
 **Institution:** Aurora  
 **Repository Link:** [https://github.com/padigasathwik721-cmd/Backend-Development-Fundamentals-Sathwik-Labs](https://github.com/padigasathwik721-cmd/Backend-Development-Fundamentals-Sathwik-Labs)  
 
@@ -18,7 +18,7 @@ This repository contains all laboratory exercises for Backend Development Fundam
 | :--- | :--- | :--- |
 | [`lab-01/`](./lab-01/) | Lab 1: Node.js and Express Server | Completed |
 | [`lab-02/`](./lab-02/) | Lab 2: SQLite database and CRUD routes | Completed ([Live API](https://lab-02-gxn6lewh6-sa-d30c.vercel.app)) |
-| `lab-03/` | Lab 3 | Upcoming |
+| [`lab-03/`](./lab-03/) | Lab 3: REST API, query parameters, validation, debugging | Completed |
 | `lab-04/` | Lab 4 | Upcoming |
 | `lab-05/` | Lab 5 | Upcoming |
 | `lab-06/` | Lab 6 | Upcoming |

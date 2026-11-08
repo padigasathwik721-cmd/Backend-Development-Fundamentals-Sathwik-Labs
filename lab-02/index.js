@@ -1,7 +1,7 @@
 /**
  * Lab 2: SQLite database and CRUD routes
  * Course: Backend Development Fundamentals (Year II Term II) - Aurora
- * Faculty: Sai Shiva Teja
+ * Faculty: Sai Shiva Theja
  * 
  * Student Name: Padiga Sathwik
  * Registration Number: 252U1R1172

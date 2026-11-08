@@ -2,7 +2,7 @@
 
 **Padiga Sathwik • 252U1R1172 • CSE-2D**  
 *Backend Development Fundamentals — Year II Term II — Aurora*  
-*Faculty: Sai Shiva Teja / Joel Prashanth D*  
+*Faculty: Mr Sai siva teja*  
 **Repository Link:** [https://github.com/padigasathwik721-cmd/Backend-Development-Fundamentals-Sathwik-Labs](https://github.com/padigasathwik721-cmd/Backend-Development-Fundamentals-Sathwik-Labs)  
 **Live Link:** [https://lab-02-gxn6lewh6-sa-d30c.vercel.app](https://lab-02-gxn6lewh6-sa-d30c.vercel.app)
 

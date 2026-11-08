@@ -1,0 +1,110 @@
+### 1. Root route
+GET http://localhost:3000/
+
+### 2. About route (Student & Faculty Details)
+GET http://localhost:3000/about
+
+### 3. Debugging Fixes Checklist
+GET http://localhost:3000/debug-fixes
+
+### 4. GET all books (Default values: limit=10, offset=0, order_by=id, order=ASC)
+GET http://localhost:3000/books/
+
+### 5. Search books by title (search_q)
+GET http://localhost:3000/books/?search_q=the
+
+### 6. Sort books by price descending (order_by & order)
+GET http://localhost:3000/books/?order_by=price&order=DESC
+
+### 7. Filter books by price range (min_price & max_price)
+GET http://localhost:3000/books/?min_price=300&max_price=450
+
+### 8. Combined search, filter, sort and pagination
+GET http://localhost:3000/books/?search_q=the&min_price=300&max_price=450&order_by=price&order=DESC&limit=5&offset=0
+
+### 9. Pagination with limit and offset
+GET http://localhost:3000/books/?limit=3&offset=3
+
+### 10. GET one book by ID
+GET http://localhost:3000/books/1/
+
+### 11. POST: Add a new book (Valid - 201 Created)
+POST http://localhost:3000/books/
+Content-Type: application/json
+
+{
+  "title": "Python Basics",
+  "author": "John",
+  "price": 350,
+  "pages": 250
+}
+
+### 12. PUT: Update a book by ID (Valid - 200 OK)
+PUT http://localhost:3000/books/1/
+Content-Type: application/json
+
+{
+  "title": "Harry Potter and the Philosopher's Stone",
+  "author": "J.K. Rowling",
+  "price": 550,
+  "pages": 350
+}
+
+### 13. DELETE: Remove a book by ID (200 OK)
+DELETE http://localhost:3000/books/11/
+
+### 14. GET: Non-existent book (404 Not Found)
+GET http://localhost:3000/books/999/
+
+### 15. GET: Invalid book ID (400 Bad Request)
+GET http://localhost:3000/books/abc/
+
+### 16. GET: Invalid order_by column (400 Bad Request)
+GET http://localhost:3000/books/?order_by=rating
+
+### 17. GET: Invalid order direction (400 Bad Request)
+GET http://localhost:3000/books/?order=DOWN
+
+### 18. GET: Invalid limit (400 Bad Request)
+GET http://localhost:3000/books/?limit=-5
+
+### 19. GET: Invalid price range where min > max (400 Bad Request)
+GET http://localhost:3000/books/?min_price=500&max_price=200
+
+### 20. POST: Validation failure - missing title (400 Bad Request)
+POST http://localhost:3000/books/
+Content-Type: application/json
+
+{
+  "author": "John",
+  "price": 350
+}
+
+### 21. POST: Validation failure - non-numeric price (400 Bad Request)
+POST http://localhost:3000/books/
+Content-Type: application/json
+
+{
+  "title": "Python Basics",
+  "author": "John",
+  "price": "three hundred"
+}
+
+### 22. PUT: Update non-existent book (404 Not Found)
+PUT http://localhost:3000/books/999/
+Content-Type: application/json
+
+{
+  "title": "Ghost Book",
+  "author": "Ghost",
+  "price": 100
+}
+
+### 23. DELETE: Remove non-existent book (404 Not Found)
+DELETE http://localhost:3000/books/999/
+
+### 24. GET: Unknown route (404 Not Found)
+GET http://localhost:3000/nothing
+
+### 25. SQL Injection test - safe parameterized query
+GET http://localhost:3000/books/?search_q=';DROP%20TABLE%20book;--
